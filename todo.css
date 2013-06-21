@@ -1,3 +1,48 @@
+body {
+	font-size: 1.3em;
+}
+
+
 .crossed-out {
 	text-decoration: line-through;
 }
+
+.list {
+	background-color: white;
+	border: 1px solid black;
+}
+
+table{
+	width: 500px;
+	background-color: yellow;
+	padding: 0px;
+	border-collapse: collapse;
+	
+	}
+tr {
+	background-color: yellow;
+	padding: 0px;
+	margin: 0xp;
+	border: 1px solid gray;
+	width: 250px;
+	}
+
+
+.remove {
+	width: 20px;
+	border-style: none none none double;
+	margin-left: 6px;
+}
+	
+.text {
+	border: none;
+	background-color: yellow;
+	width: 488px;
+	height: 30px;
+	 padding: 6px 6px;
+
+	}
+	
+.text:focus {
+	outline: none;
+	}

@@ -111,6 +111,7 @@ font-family: helvetica;
 }
 
 #picture-scroller {
+	display: none;
 	position: relative;
 	float: left;
 	background-color: gray;
@@ -151,7 +152,7 @@ padding: 0 0 3px 0;
 
 #main_desc {
     position: relative;
-    float:left;
+    float: left;
     margin-left: 2em;
     width: 40%;
 }

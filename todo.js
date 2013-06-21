@@ -9,7 +9,7 @@ $(document).ready(function() {
   		} else {
 			event.preventDefault();
 			var li = $('.text').val();
-			var both = "<tr><td class='remove'> X</td><td class='button'>" +li +  "</td></tr>";
+			var both = "<tr><td class='button'>" +li +  "</td><td class='remove'> X</td></tr>";
 			$('.list').append(both);
 			$('.text').val("");
 			$('.text').attr('placeholder', 'Anything else?');
