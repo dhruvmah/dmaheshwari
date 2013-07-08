@@ -78,6 +78,19 @@ a:hover {
 	
 }
 
+#ambika {
+	display: none;
+	width: 400px;
+	float: right;
+}
+
+#hello-biks {
+	font-size: 4em;
+	color: white;
+	float: left;
+	margin-left: 40px;
+
+}
 
 #form {
  	display: none;
@@ -151,6 +164,7 @@ padding: 0 0 3px 0;
         }
 
 #main_desc {
+	display:none;
     position: relative;
     float: left;
     margin-left: 2em;

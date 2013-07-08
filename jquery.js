@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$('#form').slideDown(800);
-	
+//	$('#form').slideDown(800);
+	$('#ambika').slideDown(1000);	
 	$('#picture-scroller').on('mouseover', function() {
 		$('#scroller-desc').slideToggle(250)
 		});
